@@ -10,6 +10,6 @@ train model (optonial)
 run 
 ```python server.py```
 # UI for tests
-![Alt Text]([https://path-to-image/image-name.jpg](https://i.ibb.co/3r7Xyzm/Screenshot-2023-04-24-222730.png))
+![Alt Text](https://path-to-image/image-name.jpg](https://i.ibb.co/3r7Xyzm/Screenshot-2023-04-24-222730.png)
 
 
