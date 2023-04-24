@@ -32,7 +32,7 @@ def home():
         'Rainfall': [rainfall]
     })
 
-    # make the prediction
+    # make the prediction 
     y_pred = loaded_model.predict(new_data)
 
     # Convert the NumPy array to a Python list
