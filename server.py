@@ -42,27 +42,5 @@ def home():
     return jsonify({'prediction': y_pred_list})
 
 
-"""
-@app.route('/predict', methods=['POST'])
-def home():
-    temperature = float(request.form['temperature'])
-    humidity = float(request.form['humidity'])
-    rainfall = float(request.form['rainfall'])
-    soil_moisture = float(request.form['soil_moisture'])
-
-     #Make prediction 
-    prediction = model.predict([[temperature, humidity, rainfall, soil_moisture]])
-
-    # Return result as JSON
-    #return jsonify({'prediction': prediction[0]})
-    threshold = 0.5
-    
-    pred = 1 if prediction[0] > threshold else 0
-    return jsonify({'prediction': pred})
-"""
-
-
-   
-
 if __name__ == '__main__':
     app.run(debug=True)

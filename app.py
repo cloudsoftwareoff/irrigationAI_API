@@ -19,8 +19,6 @@ clf = DecisionTreeClassifier(random_state=42)
 clf.fit(X_train, y_train)
 #Test
 y_pred = clf.predict(X_test)
-#SAVING THE MODEL TO FILE
-import joblib
 
 # save the model to a file
 filename = 'decision_tree_model.sav'
