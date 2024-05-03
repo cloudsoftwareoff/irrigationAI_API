@@ -21,5 +21,5 @@ clf.fit(X_train, y_train)
 y_pred = clf.predict(X_test)
 
 # save the model to a file
-filename = 'decision_tree_model.sav'
+filename = 'model.sav'
 joblib.dump(clf, filename)

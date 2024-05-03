@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 from flask import Flask, render_template
 # Load the model from file
-loaded_model = joblib.load("decision_tree_model.sav")
+loaded_model = joblib.load("model.sav")
 
 # Create a Flask application
 app = Flask(__name__)
